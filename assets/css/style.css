@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+}
+
 
 /* Header */
 header {
@@ -14,6 +23,14 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
+    /* 
+     * Flex property applied to main content:
+     * - flex-grow: 1; allows the element to expand and occupy any available space within its flex container.
+     * - flex-shrink: 0; ensures that the element does not shrink, even when there is not enough space in the container.
+     * - flex-basis: auto; sets the initial size of the element based on its content's natural size or specific size properties.
+     * This combination is typically used for a main content area to ensure it takes up all available space while not shrinking below its natural size.
+     */
+    flex: 1 0 auto;
 }
    
 
