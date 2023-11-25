@@ -119,6 +119,7 @@ main {
     padding: 40px 10px;
 }
 
+
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
@@ -228,6 +229,25 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+
 
 }
 
