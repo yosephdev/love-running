@@ -86,8 +86,7 @@ nav {
 }
 
 /* Main content */
-main {
-    background-color: lightblue;
+main {    
     /* 
      * Flex property applied to main content:
      * - flex-grow: 1; allows the element to expand and occupy any available space within its flex container.
@@ -97,6 +96,14 @@ main {
      */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
+
 }
 
 
