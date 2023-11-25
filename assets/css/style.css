@@ -86,7 +86,7 @@ nav {
 }
 
 /* Main content */
-main {    
+main {
     /* 
      * Flex property applied to main content:
      * - flex-grow: 1; allows the element to expand and occupy any available space within its flex container.
@@ -102,11 +102,8 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center/cover;
-
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
-
-
 
 
 /* Footer */
@@ -123,7 +120,7 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-    
+
 }
 
 
