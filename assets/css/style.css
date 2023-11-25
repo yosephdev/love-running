@@ -96,7 +96,10 @@ main {
      * This combination is typically used for a main content area to ensure it takes up all available space while not shrinking below its natural size.
      */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
+
+
 
 
 /* Footer */
