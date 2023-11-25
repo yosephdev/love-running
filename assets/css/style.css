@@ -79,7 +79,7 @@ nav {
 
 #nav-toggle {
     display: none;
-} 
+}
 
 .nav-toggle-label {
     font-size: 2rem;
@@ -109,6 +109,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* Header */
     nav {
         display: block;
@@ -142,5 +143,11 @@ footer {
         margin-top: 79px;
 
     }
-    
+
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
