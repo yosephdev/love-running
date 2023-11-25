@@ -105,6 +105,21 @@ main {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-width: 200px;
+    padding: 40px 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
 
 /* Footer */
 
@@ -158,7 +173,11 @@ main {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
+    }
 
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 
 }
