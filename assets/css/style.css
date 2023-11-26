@@ -102,7 +102,11 @@ main {
      * This combination is typically used for a main content area to ensure it takes up all available space while not shrinking below its natural size.
      */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -211,6 +215,53 @@ main {
     line-height: 0;
 }
 
+/* Sign-up Form page */
+
+#signup {
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20% 10% 0 10%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
 
 /* Footer */
 
@@ -275,11 +326,13 @@ main {
         margin-top: 79px;
     }
 
+    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
     }
 
+    /*Reasons section */
     #benefits-physical,
     #benefits-mental {
         display: flex;
@@ -300,6 +353,30 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+
+    /* Sign-up Form page */
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        left: 10%;
+        top: 150px;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    #text-input:hover {
+        border: #f16c6b;
     }
 }
 
