@@ -94,13 +94,7 @@ nav {
 
 /* Main content */
 main {
-    /* 
-     * Flex property applied to main content:
-     * - flex-grow: 1; allows the element to expand and occupy any available space within its flex container.
-     * - flex-shrink: 0; ensures that the element does not shrink, even when there is not enough space in the container.
-     * - flex-basis: auto; sets the initial size of the element based on its content's natural size or specific size properties.
-     * This combination is typically used for a main content area to ensure it takes up all available space while not shrinking below its natural size.
-     */
+    /* Flex property applied to main content  */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
@@ -114,6 +108,7 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 #cover-text {
@@ -124,7 +119,8 @@ main {
     bottom: 30px;
     width: 80%;
     min-width: 200px;
-    padding: 40px 10px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 
@@ -161,7 +157,8 @@ main {
     margin: 5px 0;
 }
 
-#circle-cover-big {
+/* Benefits Image Section */
+#circle-cover-bg {
     background: url(../images/reasons-image.webp) no-repeat top center/cover;
     width: 90vw;
     height: 90vw;
@@ -355,9 +352,7 @@ main {
         column-count: 3;
     }
 
-
     /* Sign-up Form page */
-
     #signup {
         background-position: center;
         position: relative;
