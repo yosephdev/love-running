@@ -4,6 +4,8 @@
 
 Welcome to the Love Running project, an engaging and responsive website built from the ground up. This project is part of the Code Institute curriculum, designed to teach the fundamentals of web development with a focus on mobile-first design.
 
+![Responsive Mockup](assets/images/preview.png)
+
 ### Key Features
 
 - **Mobile-First Design**: Developed for optimal performance on mobile devices before scaling up to larger screens.
